@@ -5,6 +5,7 @@ import { Layout } from '../components'
 import '../styles/globals.css'
 import { StateContext } from '../context/StateContext'
 
+// MyApp
 function MyApp({ Component, pageProps }) {
   return (
     <StateContext>
