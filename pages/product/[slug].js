@@ -36,6 +36,7 @@ const ProductDetails = ({ product, products }) => {
               />
             ))}
           </div>
+      </div>
 
           <div className='product-details-desc'>
             <h1>{name}</h1>
@@ -67,7 +68,7 @@ const ProductDetails = ({ product, products }) => {
               <button type='button' className='buy-now' onClick={handleBuyNow}>Buy Now</button>
             </div>
           </div>
-        </div>
+        
       </div>
       
       <div className='maylike-products-wrapper'>
